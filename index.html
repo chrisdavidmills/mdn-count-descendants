@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MDN count descendants</title>
+    <link href="https://cdn.mdn.mozilla.net/static/build/styles/mdn.adf4e87b5552.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>MDN descendant counter</h1>
+
+    <p>Enter the absolute URL of an MDN page and press "Count descendants" to see the number of descendants the page has.</p>
+
+    <form>
+      <div>
+        <label for="url">URL to query: </label>
+        <input id="url" type="url">
+      </div>
+      <div>
+        <button>Count descendants</button>
+      </div>
+    </form>
+
+    <ul class="results"></ul>
+
+    <script src="main.js"></script>
+  </body>
+</html>

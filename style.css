@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(https://cdn.mdn.mozilla.net/static/img/home-bg.ca67b4ee8675.gif);
+  height: 100%;
+}
+
+body {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: white;
+  height: inherit;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+label {
+  width: 200px;
+}
+
+input {
+  width: 400px;
+}
