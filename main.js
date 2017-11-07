@@ -6,6 +6,7 @@ let results = document.querySelector('.results');
 let childCount = 0;
 let url;
 
+input.focus();
 form.addEventListener('submit', requestJSON);
 
 function requestJSON(e) {
@@ -42,4 +43,5 @@ function displayResults(err) {
 
   results.appendChild(listItem);
   input.value = '';
+  input.focus();
 }
