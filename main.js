@@ -10,7 +10,6 @@ form.addEventListener('submit', requestJSON);
 
 function requestJSON(e) {
   url = input.value;
-  input.value = '';
   childCount = 0;
   e.preventDefault();
 
@@ -42,4 +41,5 @@ function displayResults(err) {
   }
 
   results.appendChild(listItem);
+  input.value = '';
 }
